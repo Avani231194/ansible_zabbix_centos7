@@ -1,0 +1,5 @@
+---
+- hosts: tomcat_ser
+  roles:
+    - { role: "/etc/ansible/roles/zabbixcent7" }
+ 
